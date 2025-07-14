@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container fade-in">
+        <h2>🔍 Prediction Result</h2>
+        <p class="result-text">The predicted typhoid severity is:</p>
+        <p class="prediction"><strong>{{ prediction }}</strong></p>
+        <a href="/">🔄 Make another prediction</a>
+    </div>
+</body>
+</html>
